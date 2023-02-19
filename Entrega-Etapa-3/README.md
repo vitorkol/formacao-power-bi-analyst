@@ -17,3 +17,10 @@ após a inserção dos dados, habilitar novamente, para manter a consistência e
 * Carregar a fonte de dados a partir de uma conexão com o banco de dados hospedado na Azure;
 * Criar script para nova fonte de dados utilizando o Direct Query;
 * Criar algumas análises para demonstrar o conhecimento adquirido.
+
+> Explique por que, neste caso supracitado, podemos apenas utilizar o mesclar e não o atribui:
+![Item 14 do desafio](./mesclar_agregar_dados.JPG)
+
+* A função mesclar seria a aplicação equivalente a utilização da função JOIN do SQL;
+* A função agregar seria a aplicação equivalente a utilização da função soma/contagem; Por exemplo: Coluna A da planilha A com 50 linhas agregada a Coluna A da planilha B 25 linhas dá um total de 75 linhas na nova consulta.
+
