@@ -5,7 +5,7 @@ O desafio está composto em 2 partes, sendo elas:
 1. Criar modelo relacional
 2. a partir do modelo relacional, criar o modelo Star Schema.
 
-<p style="text-align: justify;">Para criação do modelo banco de dados foi o site mencionado pela profª [SQL DBM](http://app.sqldbm.com/), não é possível utiliza-lo para gerar o script.sql porque a lincença é limitada a somente uma tabela, e o tempo de utilização são de 14 dias.
+<p style="text-align: justify;">Para criação do modelo banco de dados foi utilizado a fonte de dados sample_financials, da qual se derivaram seis tabelas dimensões e uma tabela fato. Para a criação da tabela dCalendário, foi utilizada o comando: ```Calenderauto()``` e partir deste resultado foi utilizado o comando: ```Year(), Month(), Day() e Format()```
 
 > São esperados como artefatos para entregas a saídas a seguir:
 
@@ -16,8 +16,5 @@ O desafio está composto em 2 partes, sendo elas:
 * Criar a tabela dimensão calendário;
 * Criar algumas análises para demonstrar o conhecimento adquirido.
 
->Base do modelo relacional
-![Base modelo relacional](./relational_schema_app.JPG)
-
 >A partir do modelo relacional abaixo, criar novo modelo starschema
-![Modelo Star Schema](./starschema_app.JPG)
+![Modelo Star Schema](./Starschema_vendas_CRTFD.JPG)
